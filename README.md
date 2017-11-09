@@ -20,7 +20,7 @@ Currently, the program should work as follows:
 
 ### Assumptions
 
-- As of now, can able to draw only horizontal and vertical lines, diagonal lines not supported.
+- As of now, we can able to draw horizontal and vertical lines, diagonal lines not supported.
 - Coordinates indices are based of 1 instead of 0. For example, if you want to draw a line from top left corner of the canvas, the starting point would be (1,1) instead of (0,0). This is done to match the given sample output.
 - Current implementation supports left to right drawing of lines and rectangles. For example, if x1, y1 is greater than x2, y2, the line will not be drawn.
 
@@ -29,40 +29,105 @@ Currently, the program should work as follows:
 Below is a sample run of the program. User input is prefixed with enter command:
 
 ```
-Enter Command: C 20 4
+------------------------------------------------------------------------------
+                This is menu driven Canvas drawing program
+------------------------------------------------------------------------------
+
+
+
+                <<--------MENU-------->>
+                <1> Create a new canvas
+                <2> Start drawing on the canvas by issuing various commands
+                <3> Quit
+
+Please select valid menu option : 1
+
+Please Enter Canvas operation Command : c 20 4
+
 ----------------------
 |                    |
 |                    |
 |                    |
 |                    |
 ----------------------
-Enter Command: L 1 2 6 2
+
+
+                <<--------MENU-------->>
+                <1> Create a new canvas
+                <2> Start drawing on the canvas by issuing various commands
+                <3> Quit
+
+Please select valid menu option : 2
+
+Please Enter Canvas operation Command : l 1 2 6 2
+
 ----------------------
 |                    |
-|xxxxxx              |
+|******              |
 |                    |
 |                    |
 ----------------------
-Enter Command: L 6 2 6 4
+
+
+                <<--------MENU-------->>
+                <1> Create a new canvas
+                <2> Start drawing on the canvas by issuing various commands
+                <3> Quit
+
+Please select valid menu option : 2
+
+Please Enter Canvas operation Command : l 6 3 6 4
+
 ----------------------
 |                    |
-|xxxxxx              |
-|     x              |
-|     x              |
+|******              |
+|     *              |
+|     *              |
 ----------------------
-Enter Command: R 16 1 20 3
+
+
+                <<--------MENU-------->>
+                <1> Create a new canvas
+                <2> Start drawing on the canvas by issuing various commands
+                <3> Quit
+
+Please select valid menu option : 2
+
+Please Enter Canvas operation Command : r 14 1 18 3
+
 ----------------------
-|               xxxxx|
-|xxxxxx         x   x|
-|     x         xxxxx|
-|     x              |
+|             *****  |
+|******       *   *  |
+|     *       *****  |
+|     *              |
 ----------------------
-Enter Command: b 10 3 o
+
+
+                <<--------MENU-------->>
+                <1> Create a new canvas
+                <2> Start drawing on the canvas by issuing various commands
+                <3> Quit
+
+Please select valid menu option : 2
+
+Please Enter Canvas operation Command : b 10 3 o
+
 ----------------------
-|oooooooooooooooxxxxx|
-|xxxxxxooooooooox   x|
-|     xoooooooooxxxxx|
-|     xoooooooooooooo|
+|ooooooooooooo*****oo|
+|******ooooooo*   *oo|
+|     *ooooooo*****oo|
+|     *oooooooooooooo|
+----------------------
+
+
+                <<--------MENU-------->>
+                <1> Create a new canvas
+                <2> Start drawing on the canvas by issuing various commands
+                <3> Quit
+
+Please select valid menu option : 2
+
+Please Enter Canvas operation Command : q
 ----------------------
 ```
 
