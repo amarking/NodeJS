@@ -1,4 +1,4 @@
-# Console Drawing Program
+# Canvas Drawing Program using NodeJS
 This is menu driven console version of canvas drawing program using NodeJS.
 
 Currently, the program should work as follows:
