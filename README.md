@@ -12,11 +12,11 @@ Currently, the program should work as follows:
 
 ## Supported canvas drawing commands - 
 <br/>Below are the supported commands for canvas drawing operations.
-<br/>1. C w h -- Create a new canvas of width w and height h.
-<br/>2. L x1 y1 x2 y2 -- Create a new line from (x1,y1) to (x2,y2). Currently only horizontal or vertical lines are supported. Horizontal and vertical line will be drawn using the 'x' character.
-<br/>3. R x1 y1 x2 y2 -- Create a new rectangle, whose upper left corner is (x1,y1) and lower right corner is (x2,y2). Horizontal and vertical lines will be drawn using the 'x' character.
-<br/>4. B x y c -- Fill the entire area connected to (x,y) with "colour" c. The behaviour of this is the same as that of the "bucket fill" tool in paint programs.
-<br/>5. Q -- Quit the program.
+-  C w h -- Create a new canvas of width w and height h.
+-  L x1 y1 x2 y2 -- Create a new line from (x1,y1) to (x2,y2). Currently only horizontal or vertical lines are supported. Horizontal and vertical line will be drawn using the 'x' character.
+-  R x1 y1 x2 y2 -- Create a new rectangle, whose upper left corner is (x1,y1) and lower right corner is (x2,y2). Horizontal and vertical lines will be drawn using the 'x' character.
+-  B x y c -- Fill the entire area connected to (x,y) with "colour" c. The behaviour of this is the same as that of the "bucket fill" tool in paint programs.
+-  Q -- Quit the program.
 
 ### Assumptions
 
