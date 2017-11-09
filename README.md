@@ -10,7 +10,7 @@ Currently, the program should work as follows:
 <br/><br/>Then program will ask for user interest, and proceed with further canvas drawing oprtaions.
 <br/>
 
-##Supported canvas drawing commands - 
+## Supported canvas drawing commands - 
 | Command        | Description  |
 |:----|:------|
 | C w h            | Create a new canvas of width w and height h. |
