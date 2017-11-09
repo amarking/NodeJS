@@ -3,11 +3,11 @@ This is menu driven console version of canvas drawing program using NodeJS.
 
 Currently, the program should work as follows:
  Upon running the program user will see the main menu as :-
- <<------MENU------>>
- <1> Create a new canvas
- <2> Start drawing on the canvas by issuing various commands
- <3> Quit
-Then program will ask for user interest, and proceed with further canvas drawing oprtaions.
+<br/><<------MENU------>>
+<br/><1> Create a new canvas
+<br/><2> Start drawing on the canvas by issuing various commands
+<br/><3> Quit
+<br/><br/>Then program will ask for user interest, and proceed with further canvas drawing oprtaions.
 <br/>
 
 | Command        | Description  |
