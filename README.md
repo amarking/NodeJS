@@ -58,7 +58,7 @@ npm start
 ```
 
 ## Testing
-Unit tests are written using [Jest]. To execute tests, run:
+Unit tests are written using Jest. To execute tests, run:
 
 ```
 npm test
