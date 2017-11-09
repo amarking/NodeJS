@@ -20,9 +20,10 @@ Currently, the program should work as follows:
 
 ### Assumptions
 
+- As of now, can able to draw only horizontal and vertical lines, diagonal lines not supported.
 - Coordinates indices are based of 1 instead of 0. For example, if you want to draw a line from top left corner of the canvas, the starting point would be (1,1) instead of (0,0). This is done to match the given sample output.
-- Currently the program only supports left to right drawing of lines and rectangles. For example, if x1, y1 is greater than x2, y2, the line will not be drawn.
-- Only horizontal and vertical lines are supported for now.
+- Current implementation supports left to right drawing of lines and rectangles. For example, if x1, y1 is greater than x2, y2, the line will not be drawn.
+
 
 ### Sample Input/Ouput
 Below is a sample run of the program. User input is prefixed with enter command:
