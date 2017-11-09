@@ -104,8 +104,7 @@ Unit tests are written using [Jest](http://facebook.github.io/jest/). To execute
 ```
 npm test
 ```
-
-ðŸ’¡ To keep Jest running in the background to watch for file changes, run:
+To keep Jest running in the background to watch for file changes, run:
 ```
 npm run test-watch
 ```
