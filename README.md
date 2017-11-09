@@ -26,9 +26,9 @@ Currently, the program should work as follows:
 
 ### Assumptions
 
-- As of now, we can able to draw horizontal and vertical lines, diagonal lines not supported.
+- As of now, diagonal lines are not supported.
 - Coordinates indices are based of 1 instead of 0. For example, if you want to draw a line from top left corner of the canvas, the starting point would be (1,1) instead of (0,0). This is done to match the given sample output.
-- Current implementation supports left to right drawing of lines and rectangles. For example, if x1, y1 is greater than x2, y2, the line will not be drawn.
+- As of now it supports left-right drwaing of lines and rectangles. For example, if x1, y1 is greater than x2, y2, the line will not be drawn.
 
 ## Setting up and running the program code --
 
