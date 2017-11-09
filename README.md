@@ -24,8 +24,57 @@ Currently, the program should work as follows:
 - Coordinates indices are based of 1 instead of 0. For example, if you want to draw a line from top left corner of the canvas, the starting point would be (1,1) instead of (0,0). This is done to match the given sample output.
 - Current implementation supports left to right drawing of lines and rectangles. For example, if x1, y1 is greater than x2, y2, the line will not be drawn.
 
+## Setting up and running the program code --
 
-### Sample Input/Ouput
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Requirements -
+
+```
+node >= v7.10.0
+npm  >= v4.2.0
+```
+
+### Setting up locally
+
+ - Download the zip file
+ - cd into the folder
+ - Run npm install
+
+```
+npm install
+```
+### Executing the program
+
+To run the program by executing the following command
+
+```
+npm run build
+npm start
+```
+
+## Testing
+
+### Running the tests
+
+Unit tests are written using [Jest]. To execute tests, run:
+
+```
+npm test
+```
+To keep Jest running in the background to watch for file changes, run:
+```
+npm run test-watch
+```
+
+### Code Coverage
+
+Jest comes with default code coverage report. The following command generates reports in a folder named coverage in the project directory.
+
+```
+npm run coverage
+```
+### Sample output of program
 Below is a sample run of the program. User input is prefixed with enter command:
 
 ```
@@ -129,60 +178,6 @@ Please select valid menu option : 2
 
 Please Enter Canvas operation Command : q
 ----------------------
-```
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-[Node](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) are required to run the program.
-
-```
-node >= v7.10.0
-npm  >= v4.2.0
-```
-
-### Installing
-
- - Git clone or download the zip file
- - cd into the folder
- - Run npm install
-
-```
-npm install
-```
-### Running the program
-
-The program is written in ES6. [Babel](https://babeljs.io/) is used to transpile the code to avoid compatibility issues. To run the program, execute the following command
-
-
-```
-npm run build
-npm start
-```
-
-## Testing
-
-### Running the tests
-
-Unit tests are written using [Jest](http://facebook.github.io/jest/). To execute tests, run:
-
-```
-npm test
-```
-To keep Jest running in the background to watch for file changes, run:
-```
-npm run test-watch
-```
-
-### Code Coverage
-
-Jest comes with default code coverage report. The following command generates reports in a folder named coverage in the project directory.
-
-```
-npm run coverage
 ```
 
 
