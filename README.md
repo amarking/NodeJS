@@ -44,8 +44,6 @@ npm  >= v4.2.0
 ```
 npm install
 ```
-### Executing the program
-
 To run the program by executing the following command
 
 ```
@@ -54,9 +52,6 @@ npm start
 ```
 
 ## Testing
-
-### Running the tests
-
 Unit tests are written using [Jest]. To execute tests, run:
 
 ```
