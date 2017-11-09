@@ -1,11 +1,13 @@
 # Console Drawing Program
-Simple console version of drawing program written in NodeJS
+This is menu driven console version of canvas drawing program using NodeJS.
 
-Currently, the functionality of the program is quite limited.
-In a nutshell, the program should work as follows:
- 1. Create a new canvas
- 2. Start drawing on the canvas by issuing various commands
- 3. Quit
+Currently, the program should work as follows:
+ Upon running the program user will see the main menu as :-
+ <<------MENU------>>
+ <1> Create a new canvas
+ <2> Start drawing on the canvas by issuing various commands
+ <3> Quit
+Then program will ask for user interest, and proceed with further canvas drawing oprtaions.
 <br/>
 
 | Command        | Description  |
